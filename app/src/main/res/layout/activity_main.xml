@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relLayout1"
+                android:background="@color/lightGrey">
+
+
+                <ImageView
+                    android:id="@+id/post_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="321dp"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/back" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/post_image"
+                    android:id="@+id/relLayout2"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/White">
+
+
+                    <Button
+                        android:id="@+id/camera"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@null"
+                        android:hint="Camera"
+                        android:padding="10dp"
+                        android:textColor="@color/Black" />
+
+                    <RelativeLayout
+                        android:id="@+id/relLayout4"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="-125dp"
+                        android:background="@color/White"
+                        android:padding="10dp">
+
+
+                        <TextView
+                            android:id="@+id/input_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:background="@null"
+                            android:hint="Name of Plant"
+                            android:textColor="@color/Black"
+                            android:textIsSelectable="true" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relLayout2"
+                    android:id="@+id/relLayout9">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@color/White"
+                        android:id="@+id/relLayout3"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp">
+
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:id="@+id/gallery"
+                            android:layout_centerVertical="true"
+                            android:maxLines="20"
+                            android:background="@null"
+                            android:hint="Gallery"
+                            android:textColor="@color/Black"
+                            android:gravity="center"/>
+
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_below="@+id/relLayout3"
+                        android:background="@color/Black"
+                        android:id="@+id/relLayout5"
+                        android:padding="10dp"
+                        android:layout_marginTop="10dp">
+
+
+                        <Button
+                            android:id="@+id/input_country"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:background="#fece2f"
+                            android:hint="Upload"
+                            android:textColor="@color/Black" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_below="@+id/relLayout5"
+                        android:background="@color/Black"
+                        android:id="@+id/relLayout6"
+                        android:padding="10dp">
+
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/parse"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:background="#fece2f"
+                            android:hint="parse data"
+                            android:textColor="@color/Black"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_below="@+id/relLayout6"
+                        android:background="@color/White"
+                        android:id="@+id/relLayout7"
+                        android:padding="10dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:id="@+id/showres"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:background="@null"
+                            android:hint="Cure for disease"
+                            android:textIsSelectable="true"
+                            android:textColor="@color/Black"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_below="@+id/relLayout7"
+                        android:background="@color/White"
+                        android:id="@+id/relLayout8"
+                        android:padding="10dp">
+
+                        <Button
+                            android:id="@+id/travel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:background="#fece2f"
+                            android:hint="Upload"
+                            android:textColor="@color/Black" />
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "165184239425",
+    "firebase_url": "https://testupload-d2aca.firebaseio.com",
+    "project_id": "testupload-d2aca",
+    "storage_bucket": "testupload-d2aca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165184239425:android:b1360a93e99f82ed7c53c0",
+        "android_client_info": {
+          "package_name": "com.example.testupload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165184239425-h8i09l0vl67vl5bavsge8itfbe6gjju8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF2cAF8z7VW3s3Dfm9I0YWSCxvh1zZ0d4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165184239425-h8i09l0vl67vl5bavsge8itfbe6gjju8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
